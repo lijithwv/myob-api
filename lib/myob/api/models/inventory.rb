@@ -1,13 +1,13 @@
 module Myob
     module Api
       module Model
-        class InventoryAdjustment < Base
+        class Adjustment < Base
           def model_route
             'Inventory/Adjustment'
           end
         end
           
-        class InventoryItems < Base
+        class Item < Base
           def model_route
             'Inventory/Item'
           end
