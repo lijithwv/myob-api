@@ -3,7 +3,7 @@ module Myob
       module Model
         class Supplier < Base
           def model_route
-            'Conact/Supplier'
+            'Contact/Supplier'
           end
         end 
       end
